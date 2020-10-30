@@ -1,0 +1,9 @@
+# ignorer tous les fichiers terminant par .txt
+*.txt
+.DS_Store
+
+#inclure malgré les autres règles
+!author.txt
+
+# ignorer un dossier
+/secret
